@@ -6,7 +6,7 @@ An Audio Bible is a document that containes the main audio clips and the general
 
 ## How to create a good Audio Bible
 
-### <i><b>Description</b></i>
+### <i><b>1. Description</b></i>
 
 Before starting anything, the first thing to do is to analyse the game itself, know its genre, the type of impact you want to give to the public and how you are going to do it. The objective is for the consumer to be as immersive as possible, so you dont want to add a suspense theme into an innocent animal pet game. With just the game pillars of a game you can already tell what type of audio you would be able to use and which of them not, inside the ones that can be used, you should evaluate what are the best options that will make a better immersion to improve the experience of the game in the eyes and ears of the player.
 
@@ -35,11 +35,11 @@ In this description you should implement this analysation on what type of style 
 * <i>Weapons and Items of the Player:</i> Depending on what weapons and/or items the characters have, there should be a brief description on how the animations would sound when they are in use.
 * <i>FX:</i> The type of effects, according to the visuals, that there will be and the style that are going to be made of (for example explosions or lasers).
 
-### <i><b>References</b></i>
+### <i><b>2. References</b></i>
 
 This part will be for information found in other games that are somehow helpful for the audio production or implementation in your game. These could be audio clips that have a similar style you want to use, documentation of any interesting videogame that could help understand the concept of the audio you want to use, or the way some games integrate any type of music or sound as a reference on how you want to do it to your own game.
 
-### <i><b>Implementation</b></i>
+### <i><b>3. Implementation</b></i>
 
 This is an important part of the document as it is a descriptive and detailed explanation on how the music and sounds are going to be perfomed in the game. The majority of the time, in a game, there are several sounds playing at the same time, it is essential to control these at all time. This includes knowing how many sounds can be played at once (what is too much to the point where it brakes with the style or it turns into chaos), the volume the sounds are being played at so it does not interfere with all the combination of the ambient music and basically a detailed concept vision on how the layers of audio are going to be.
 
@@ -91,5 +91,21 @@ chance for ambiguity in the end product -- and the greater chance to detect bugs
 weaknesses in your audio design.                                          
 ~~~
 
+### <i><b>4. Samples</b></i>
+
+This section is where all the audio files and clips are put in an organized way, remember that these are concepts so they won't be definite samples, if anything has to be explained about the audio clip a brief description can be added next to it.
+The best organized way would be:
+
+<b>Environment:</b> Every single one of the environmental music and sound should appear in this section. This should be separated in different bullet points that could be the names of the locations your game is set on, different ambient theme music and sounds and so on. These obviously may vary depending on your game and how the ambient audio you intent to implement on it.
+
+<b>Characters:</b> Separated by each character, this should include everything about them: general sounds, voices (includes their dialogue if they have one) and animation sounds of the character.
+
+<b>Weapons and Items:</b> All the animation sounds involving the weapons and items of the game, if there are not a lot of these in your game, it may be a better idea to put them as a subsection on the corresponding characters.
+
+<b>Sounds:</b> These are the sounds involving UI, recompensation sounds on winning or losing something, animation sounds that do not involve characters, weapons or environment and just other sounds that you might add like explosions or lasers.
+
+<b>Narration:</b> This will involve all the external narration in the game, remember that the dialogue of each character is included in the section before.
+
+<b>Extra Audio:</b> Any additional music or sound that does not correspond to either of the sections indicated above and might be interesting to include.
 
 
