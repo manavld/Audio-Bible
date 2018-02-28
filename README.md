@@ -46,6 +46,7 @@ This is an important part of the document as it is a descriptive and detailed ex
 Layers are a type of way to describe the amount of sounds playing at the same time, this way everyone can tell what is playing in the background in an organized way and what can be easily added. In each layer there should be an explanation on what is played and on what can and can not be added to it. This finds a solid balance between music and sounds (including animations and dialague) during all the game and serves as a guide for the rest to assure that no additions can brake the stability of any music or sound style.
 This <a href="http://www.dreamquakestudios.com/ADD.html">documentation</a> has a great example about the use of the layers:
 ~~~
+"
 Layer 0 
 An ambient sound effect layer. As the player passes over certain terrain types on the map, that terrain 
 type's ambient sound loop begins to play. As the player passes over a second 
@@ -88,7 +89,8 @@ Of course, how your implementation is decided upon and how you wish to detail it
 and/or your team. Don't over-describe every little thing: this document shouldn't 
 become your life's work! But the more you stick to it and the more detail you can provide, the less 
 chance for ambiguity in the end product -- and the greater chance to detect bugs or 
-weaknesses in your audio design.                                          
+weaknesses in your audio design.   
+"
 ~~~
 
 ### <i><b>4. Samples</b></i>
@@ -102,7 +104,7 @@ The best organized way would be:
 
 * <b>Weapons and Items:</b> All the animation sounds involving the weapons and items of the game, if there are not a lot of these in your game, it may be a better idea to put them as a subsection on the corresponding characters.
 
-* <b>Sounds:</b> These are the sounds involving UI, recompensation sounds on winning or losing something, animation sounds that do not involve characters, weapons or environment and just other sounds that you might add like explosions or lasers.
+* <b>Sounds:</b> These are the sounds involving UI, recompensation sounds on winning or losing something, animation sounds that do not involve characters, weapons or environment and just other sounds effects that you might add like explosions or lasers.
 
 * <b>Narration:</b> This will involve all the external narration in the game, remember that the dialogue of each character is included in the section before.
 
@@ -110,10 +112,20 @@ The best organized way would be:
 
 ### <i><b>5. Technical Guidelines</b></i>
 
-The last point of the document includes some rules on the type of file formats and the programs or programs that will be used. This helps to stay organized and not confuse someone that is not responsable of the audio when given a file in an unexpected format. It is a way to mantain the harmony between the group as no problems would appear if files are sent correctly and there is an easy access to the program used by everyone to change anything as quick as possible. 
+The last point of the document includes some rules on the type of file formats and the programs or programs that will be used. This helps to stay organized and not confuse someone that is not responsable of the audio when given a file in an unexpected format. It is a way to mantain the harmony between the group as no problems would appear if files are sent correctly and there is an easy access to the program used by everyone to change anything as quick as possible. The best recommendation in terms of file formats for videogames would be .wav for SFX and .ogg or .mp3 for ambient music or themes because of their properties and Audacity as the program to use as it is a very easy functional way to use and access in windows computers, but obviously everyone prefers using what they are used to already, this is just a recommendation.
 
 After all these points, you will have successfully completed an audio bible for your videogame.
 
+
+### Links
+
+<a href="http://www2.iiia.csic.es/~claudio/papers/Baccigalupo-2003-MasterThesis-Section1.pdf">Design and Production of Audio Technologiesfor Video Games Development</a>
+
+<a href="http://www.dreamquakestudios.com/ADD.html">Example</a>
+
+<a href="https://www.w3schools.com/html/html5_audio.asp">Audio Formats</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/Audio_for_Web_Games">Audio for Web games</a>
 
 
 
