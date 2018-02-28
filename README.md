@@ -35,7 +35,11 @@ In this description you should implement this analysation on what type of style 
 * <i>Weapons and Items of the Player:</i> Depending on what weapons and/or items the characters have, there should be a brief description on how the animations would sound when they are in use.
 * <i>FX:</i> The type of effects, according to the visuals, that there will be and the style that are going to be made of (for example explosions or lasers).
 
-## <i><b>References</b></i>
+### <i><b>References</b></i>
+
+This part will be for information found in other games that are somehow helpful for the audio production or implementation in your game. These could be audio clips that have a similar style you want to use, documentation of any interesting videogame that could help understand the concept of the audio you want to use, or the way some games integrate any type of music or sound as a reference on how you want to do it to your own game.
+
+
 
 
 
