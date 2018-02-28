@@ -1,12 +1,12 @@
-# Introduction
+# Audio Bible
 I am Manav Lakhwani and im doing a research for my University project on how to create an Audio Bible document correctly when designing a game. 
 
-## What is Audio Bible?
+## What is an Audio Bible?
 An Audio Bible is a document that containes the main audio clips and the general idea of how the sound is going to be in the videogame you are trying to develop. The objective is for the person reading it to understand how the sounds and music will be perfomed in every aspect of the game; the environment, the style, the genre, the character voice and animations, etc, and for that, the document must be very descriptive, specially as the audio is not already fully created. 
 
 ## How to create a good Audio Bible
 
-### <i>Description</i>
+### <i><b>Description</b></i>
 
 Before starting anything, the first thing to do is to analyse the game itself, know its genre, the type of impact you want to give to the public and how you are going to do it. The objective is for the consumer to be as immersive as possible, so you dont want to add a suspense theme into an innocent animal pet game. With just the game pillars of a game you can already tell what type of audio you would be able to use and which of them not, inside the ones that can be used, you should evaluate what are the best options that will make a better immersion to improve the experience of the game in the eyes and ears of the player.
 
@@ -35,6 +35,7 @@ In this description you should implement this analysation on what type of style 
 * <i>Weapons and Items of the Player:</i> Depending on what weapons and/or items the characters have, there should be a brief description on how the animations would sound when they are in use.
 * <i>FX:</i> The type of effects, according to the visuals, that there will be and the style that are going to be made of (for example explosions or lasers).
 
+## <i><b>References</b></i>
 
 
 
