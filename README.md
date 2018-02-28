@@ -39,7 +39,57 @@ In this description you should implement this analysation on what type of style 
 
 This part will be for information found in other games that are somehow helpful for the audio production or implementation in your game. These could be audio clips that have a similar style you want to use, documentation of any interesting videogame that could help understand the concept of the audio you want to use, or the way some games integrate any type of music or sound as a reference on how you want to do it to your own game.
 
+### <i><b>Implementation</b></i>
 
+This is an important part of the document as it is a descriptive and detailed explanation on how the music and sounds are going to be perfomed in the game. The majority of the time, in a game, there are several sounds playing at the same time, it is essential to control these at all time. This includes knowing how many sounds can be played at once (what is too much to the point where it brakes with the style or it turns into chaos), the volume the sounds are being played at so it does not interfere with all the combination of the ambient music and basically a detailed concept vision on how the layers of audio are going to be.
+
+Layers are a type of way to describe the amount of sounds playing at the same time, this way everyone can tell what is playing in the background in an organized way and what can be easily added. In each layer there should be an explanation on what is played and on what can and can not be added to it. This finds a solid balance between music and sounds (including animations and dialague) during all the game and serves as a guide for the rest to assure that no additions can brake the stability of any music or sound style.
+This <a href="http://www.dreamquakestudios.com/ADD.html">documentation</a> has a great example about the use of the layers:
+~~~
+Layer 0 
+An ambient sound effect layer. As the player passes over certain terrain types on the map, that terrain 
+type's ambient sound loop begins to play. As the player passes over a second 
+terrain type, the first ambient track gently fades out while the second fades in. There can be no more 
+than two ambient sound effects cross-fading into one another at a time. 
+Layer 1 
+A 3D sound engine, where monaural sounds can travel through a four-speaker system, complete with a 
+parameter list defining each sound's path, traveling speed, special effects, 
+and so on. The goal here is not to have in-game dependent sounds, as the game itself is isometric, 
+not 3D; but rather, to provide "enhancement" to the gaming experience, further 
+immersing the player in an ancient, mythological setting. 
+Layer 2 
+Ambient sounds generated from terrain and buildings, which play only occasionally, and are randomly 
+selected. Terrain played here is separate from the terrain played in Layer 0, which 
+is a more of a "global" sound. Here, the sound played is more specific and complementary to the ambient
+terrain track being played in Layer 0. 
+Layer 3
+Civilian, animal, monster, and all combat-related sounds are played here, including disaster sounds, 
+user interface sounds, and so on. 
+Layer 4 
+Interactive music categories based on game events: 
+1. "General" music played when mundane activity is going on, 
+2. "Action" music played when in combat, 
+3. "Special" music played during various important events in the game. 
+All of this music segues from one category to next as needed. 
+Layer 5 
+All narration and in-game dialogue for all characters. Narration is provided at the beginning and end 
+of campaigns and/or missions; in-game dialogue is heard by moving the mouse 
+over an on-screen character and right-clicking on it. In all, there are more than 1,200 files to manage 
+in Zeus. About 800 of them are speech files -- and this is before localization! 
+Again, in the real document, there has to be far greater detail provided. In the example above, there 
+are several things missing: how the different layers work together, some actual 
+design that needs to be implemented in certain layers (aside from just "playing" the sound file), and 
+various other special cases with certain elements, permutations, and the like. 
+Don't be afraid to push the envelope a bit here. Remember, if you can find the extra time, provide as 
+much detail as possible to "fill in the cracks" of your implementation, trying not 
+to be too vague in describing any area. Ask yourself, "how would I explain this to the designer? The 
+programmer?" and so on. Strive for a universal but detailed description. 
+Of course, how your implementation is decided upon and how you wish to detail it is entirely up to you 
+and/or your team. Don't over-describe every little thing: this document shouldn't 
+become your life's work! But the more you stick to it and the more detail you can provide, the less 
+chance for ambiguity in the end product -- and the greater chance to detect bugs or 
+weaknesses in your audio design.                                          
+~~~
 
 
 
