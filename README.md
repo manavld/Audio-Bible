@@ -45,6 +45,7 @@ This is an important part of the document as it is a descriptive and detailed ex
 
 Layers are a type of way to describe the amount of sounds playing at the same time, this way everyone can tell what is playing in the background in an organized way and what can be easily added. In each layer there should be an explanation on what is played and on what can and can not be added to it. This finds a solid balance between music and sounds (including animations and dialague) during all the game and serves as a guide for the rest to assure that no additions can brake the stability of any music or sound style.
 This <a href="http://www.dreamquakestudios.com/ADD.html">documentation</a> has a great example about the use of the layers:
+<i>
 ~~~
 "
 Layer 0 
@@ -79,6 +80,7 @@ beginning and end of campaigns and/or missions; in-game dialogue is heard by mov
 the mouse over an on-screen character and right-clicking on it.    
 "
 ~~~
+</i>
 
 ### <i><b>4. Samples</b></i>
 
