@@ -48,24 +48,25 @@ This <a href="http://www.dreamquakestudios.com/ADD.html">documentation</a> has a
 ~~~
 "
 Layer 0 
-An ambient sound effect layer. As the player passes over certain terrain types on the map, that terrain 
-type's ambient sound loop begins to play. As the player passes over a second 
-terrain type, the first ambient track gently fades out while the second fades in. There can be no more 
-than two ambient sound effects cross-fading into one another at a time. 
+An ambient sound effect layer. As the player passes over certain terrain types on
+the map, that terrain type's ambient sound loop begins to play. As the player 
+passes over a second terrain type, the first ambient track gently fades out while
+the second fades in. There can be no more than two ambient sound effects 
+cross-fading into one another at a time. 
 Layer 1 
-A 3D sound engine, where monaural sounds can travel through a four-speaker system, complete with a 
-parameter list defining each sound's path, traveling speed, special effects, 
-and so on. The goal here is not to have in-game dependent sounds, as the game itself is isometric, 
-not 3D; but rather, to provide "enhancement" to the gaming experience, further 
-immersing the player in an ancient, mythological setting. 
+A 3D sound engine, where monaural sounds can travel through a four-speaker system,
+complete with a parameter list defining each sound's path, traveling speed, special
+effects, and so on. The goal here is not to have in-game dependent sounds, as the 
+game itself is isometric, not 3D; but rather, to provide "enhancement" to the
+gaming experience, further immersing the player in an ancient, mythological setting. 
 Layer 2 
-Ambient sounds generated from terrain and buildings, which play only occasionally, and are randomly 
-selected. Terrain played here is separate from the terrain played in Layer 0, which 
-is a more of a "global" sound. Here, the sound played is more specific and complementary to the ambient
-terrain track being played in Layer 0. 
+Ambient sounds generated from terrain and buildings, which play only occasionally,
+and are randomly selected. Terrain played here is separate from the terrain played
+in Layer 0, which is a more of a "global" sound. Here, the sound played is more 
+specific and complementary to the ambient terrain track being played in Layer 0. 
 Layer 3
-Civilian, animal, monster, and all combat-related sounds are played here, including disaster sounds, 
-user interface sounds, and so on. 
+Civilian, animal, monster, and all combat-related sounds are played here, including
+disaster sounds, user interface sounds, and so on. 
 Layer 4 
 Interactive music categories based on game events: 
 1. "General" music played when mundane activity is going on, 
@@ -73,9 +74,9 @@ Interactive music categories based on game events:
 3. "Special" music played during various important events in the game. 
 All of this music segues from one category to next as needed. 
 Layer 5 
-All narration and in-game dialogue for all characters. Narration is provided at the beginning and end 
-of campaigns and/or missions; in-game dialogue is heard by moving the mouse 
-over an on-screen character and right-clicking on it.    
+All narration and in-game dialogue for all characters. Narration is provided at the
+beginning and end of campaigns and/or missions; in-game dialogue is heard by moving 
+the mouse over an on-screen character and right-clicking on it.    
 "
 ~~~
 
@@ -113,7 +114,8 @@ After all these points, you will have successfully completed an audio bible for 
 
 <a href="https://www.w3schools.com/html/html5_audio.asp">Audio Formats</a>
 
-<a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/Audio_for_Web_Games">Audio for Web games</a>
+<a href="https://www.asoundeffect.com/game-audio-design-document/">Game Audio Guide</a>
 
+<a href="https://developer.mozilla.org/en-US/docs/Games/Techniques/Audio_for_Web_Games">Audio for Web games</a>
 
 
